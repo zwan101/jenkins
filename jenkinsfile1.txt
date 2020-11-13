@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+    stages {
+        stage('Devopelopers') {
+            steps {
+                echo 'hello Developers Team'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'hello Build Team'
+                
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Hello Tester'
+                
+            }
+        }
+        stage('Quality Assurance') {
+            steps {
+                echo 'hello QA Team'
+                
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'hello Deploy Team'
+                
+            }
+        }
+        stage('Monitor') {
+            steps {
+                echo 'hello Monitoring team'
+                
+            }
+        }
+        
+    }
+}
